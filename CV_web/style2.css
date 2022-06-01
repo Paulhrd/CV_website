@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Inter&family=Montserrat:wght@400;500;700&display=swap');
+
+
+body {
+    background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+}
+
+section {
+    display: flex;
+}
+
+.left_side_section {
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 10px;
+    width:50%;
+    margin: 1em;
+    padding: 1em;
+
+}
+
+.right_side_section {
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 50%;
+    margin: 1em;
+    padding:1em;
+}
+
+.contact_section p {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.profile_section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pp img {
+    width:130px;
+    margin-top:10px;
+}
+
+.name{
+    text-align: center;
+}
+
+.name h1{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+margin-bottom: 0px;
+color: #CECACA;
+}
+
+.name h2{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 43px;
+color: #FFFFFF;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.name h3{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+
+color: #CECACA;
+}
+
+.mail_section {
+    display: flex;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 10px;
+}
+.tel_section {
+    display: flex;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 10px;
+
+}.weblink_section {
+    display: flex;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 10px;
+
+}.location_section {
+    display: flex;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 10px;
+
+}
+
+.languages_section {
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 10px;
+}
+
+.socials_section {
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 10px;
+}
+
+.hobbie_title h1{
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 10px;
+}
+
+.hobbies_section {
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline;
+    text-align: center;
+}
+
+.french_section {
+    display: flex;
+}
+.english_section {
+    display: flex;
+}
+.russian_section {
+    display: flex;
+}
+.spanish_section {
+    display: flex;
+}
+
+.contact_section p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 16px;
+color: #FFFFFF;
+margin-left: 1em;
+}
+
+.languages_section h1 {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 18px;
+color: #FFFFFF;
+}
+
+.socials_section h1 {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 18px;
+color: #FFFFFF;
+}
+
+.hobbie_title h1 {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 18px;
+color: #FFFFFF;
+}
+
+.languages_section p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #FAFAFA;
+margin-right: 10px;
+}
+
+.socials_section p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #FFFFFF;
+}
+
+.hobbies_section p {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+color: #E5E5E5;
+}
+
+.video_game_section{
+    margin-right: 5px;
+}
+
+.sax_section{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.climb_section{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.tennis_section{
+    margin-left: 5px;
+}
+
+.button {
+    background: #545454;
+    border-radius: 5px;
+    padding: 5px;
+    width:50%;
+    margin-top: 20px;
+}
+
+.button h1 {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 18px;
+color: #FFFFFF;
+margin:0px;
+}
+
+.experience_section h2 {
+    font-family: 'Gabriela';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 18px;
+color: #343434;
+margin-bottom: 5px;
+margin-top: 25px;
+}
+
+.education_section h2 {
+    font-family: 'Gabriela';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+color: #343434;
+margin-bottom: 5px;
+margin-top: 25px;
+}
+
+.experience_section h3 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+color: #343434;
+margin: 0;
+}
+
+.education_section h3 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+color: #343434;
+margin:0;
+}
+
+.education_section h4 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #73808D;
+margin: 0;
+}
+
+.experience_section h4 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #73808D;
+margin: 0;
+}
+
+.experience_section p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+color: rgba(0, 0, 0, 0.8);
+margin:0;
+margin-top: 5px;
+}
+
+.education_section p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+color: rgba(0, 0, 0, 0.8);
+margin: 0;
+}
+
+.My_skills_section p {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+color: #545454;
+text-align: center;
+margin:5px;
+}
+
+.other_skills_section p {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+color: #545454;
+text-align: center;
+margin:5px;
+}
+
+.other_skills_section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.My_skills_section {
+    margin-top: 20px;
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+text-align: center;
+}
+
+.My_skills_section img {
+    width:70px;
+}
+
+.other_skills_section img {
+    width: 70px;
+}
+
+@media (max-width: 750px) {
+    section {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .left_side_section {
+        width:80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .right_side_section {
+        width:80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
